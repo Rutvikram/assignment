@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        * {
+            background-color: #d3f2ff;
+            /* text-align: center; */
+        }
+
+        #head {
+            text-align: center;
+        }
+
+        .main form {
+            background-color: #d3f2ff;
+            color: black;
+            margin: 54px 450px;
+            padding: 12px 29px;
+        }
+
+        .radio {}
+
+        #car {
+            color: white;
+            background-color: #2d3a6a;
+            margin: 33px 2px;
+            padding: 11px 16px;
+            border-radius: 17px;
+
+        }
+
+        #car option {
+            background-color: #2d3a6a;
+        }
+    </style>
+
+</head>
+
+<div class="main">
+    <h1 id="head">Travel Form For Our Trip</h1>
+    <form action="form.php">
+        First Name:  <input type="text" placeholder="enter your name"> <br> <br>
+        Last Name : <input type="text" placeholder="enter your name"> <br> <br>
+        Mobile No : <input type="number" placeholder="enter yore mobile no"> <br><br>
+        <div class="radio">Select Gander <label for="sectionidA">
+                <input type="radio" value="Male" name="section" id="sectionida">Male
+            </label>
+            <label for="sectionidB">
+                <input type="radio" value="Female" name="section" id="sectionidb">Female
+            </label> <br>
+        </div>
+        <input type="checkbox" name="want for canteen card" id="foodcanteen" class="blue"> want for canteen card <br>
+        <textarea name="explain" id="explain" cols="30" rows="10"
+            placeholder=" Explain Why You Want To Join"></textarea> <br> <br>
+        <select name="car" id="car">
+            <option value="no-car">select your car</option>
+            <option value="volvo">volvo</option>
+            <option value="BMW">BMW</option>
+            <option value="jaguar">jaguar</option>
+            <option value="mercides">mercides</option>
+            <option value="audi">audi</option>
+        </select>
+
+
+    </form>
+</div>
+</body>
+
+</html>
