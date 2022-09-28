@@ -1,0 +1,100 @@
+                                 
+                                                      
+                                                                                                         Assignment
+                                                                                                    Moodule 1(HTML)
+                                                                                            Submitted by: Rutvik Ram
+
+
+
+
+
+
+
+• Are the HTML tags and elements the same thing? 
+Tags and Elements are not the same. They are the pieces themselves, i.e. a paragraph is an element, or a header is an element, even the body is an element.
+
+
+ • What are tags and attributes in HTML? 
+HTML tags are used to hold the HTML element. HTML element holds the content. HTML attributes are used to describe the characteristic of an HTML element in detail. HTML tag starts with < and ends with > Whatever written within a HTML tag are HTML elements.
+
+
+• What are void elements in HTML? 
+A void element is an element whose content model never allows it to have contents under any circumstances. Void elements can have attributes. The following is a complete list of the void elements in HTML : area , base , br , col , command , embed , hr , img , input , keygen , link , meta , param , source , track , wbr
+
+
+• What are HTML Entities?
+An HTML entity is a piece of text ("string") that begins with an ampersand ( & ) and ends with a semicolon ( ; ). Entities are frequently used to display reserved characters (which would otherwise be interpreted as HTML code), and invisible characters (like non-breaking spaces)
+
+
+• What are different types of lists in HTML? • What is the ‘class’ attribute in HTML?
+There are three list types in HTML: unordered list — used to group a set of related items in no particular order. ordered list — used to group a set of related items in a specific order. description list — used to display name/value pairs such as terms and definitions.
+
+
+• What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+Difference between id and class attribute: The only difference between them is that “id” is unique in a page and can only apply to at most one element, while “class” selector can apply to multiple elements.
+
+
+• What are the various formatting tags in HTML?
+HTML Formatting Elements
+<b> - Bold text.
+<strong> - Important text.
+<i> - Italic text.
+<em> - Emphasized text.
+<mark> - Marked text.
+<small> - Smaller text.
+<del> - Deleted text.
+<ins> - Inserted text.
+
+
+• How is Cell Padding different from Cell Spacing?
+Cellpadding basically defines the space present between a table cell's border and the content present in it. Cellspacing basically defines the space present between individual adjacent cells. One can create it using the tag of HTML <table>, but it sets the type attribute to cellpadding.
+
+
+• How can we club two or more rows or columns into a single row or column in anHTML table?
+You can merge two or more table cells in a column using the colspan attribute in a <td> HTML tag (table data). To merge two or more row cells, use the rowspan attribute.
+
+
+• What is the difference between a block-level element and an inline element?
+By default, inline elements do not force a new line to begin in the document flow. Block elements, on the other hand, typically cause a line break to occur (although, as usual, this can be changed using CSS).
+
+
+• How to create a Hyperlink in HTML?
+To make a hyperlink in an HTML page, use the <a> and </a> tags, which are the tags used to define the links. The <a> tag indicates where the hyperlink starts and the </a> tag indicates where it ends. Whatever text gets added inside these tags, will work as a hyperlink. Add the URL for the link in the <a href=” ”>.
+
+
+• What is the use of an iframe tag?
+Definition and Usage
+The <iframe> tag specifies an inline frame. An inline frame is used to embed another document within the current HTML document. Tip: Use CSS to style the <iframe> (see example below). Tip: It is a good practice to always include a title attribute for the <iframe> .
+
+
+• What is the use of a span tag? Explain with example?
+The <span> tag is an inline container used to mark up a part of a text, or a part of a document. The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute. The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.
+
+
+• How to insert a picture into a background image of a web page?
+The most common & simple way to add background image is using the background image attribute inside the <body> tag. The background attribute which we specified in the <body> tag is not supported in HTML5. Using CSS properties, we can also add background image in a webpage.
+
+
+• How are active links different from normal links?
+Normal links are links which are there on the page and have not been clicked yet. Active links are those links, which have just been clicked at that instant.
+
+
+• What are the different tags to separate sections of text?
+There are three tags that can be used to separate the texts:
+<br> tag – Usually <br> tag is used to separate the line of text. It breaks the current line and conveys the flow to the next line.
+<p> tag – This contains the text in the form of a new paragraph.
+<blockquote> tag – It is used to define a large quoted section.
+
+
+• What is SVG?
+SVG stands for Scalable Vector Graphics.
+SVG defines vector-based graphics in XML format.
+
+
+• What is difference between HTML and XHTML?
+HTML is the standard markup language for creating web pages, while XHTML is a stricter and more standardized version of HTML. Both HTML and XHTML include a wide range of features, such as support for multimedia, styling, and scripting.
+
+
+• What are logical and physical tags in HTML?
+Logical tags describe the behaviour, nature of content for the text enclosed inside the tag. They represent the function of text on the page. Physical tags are used to decide the appearance of the text and do not provide any information about the text.
+ 
