@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Responsive</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Woeld's Biggest Univercity</h1>
+            <p>A university is a higher learning institution. The word university comes from the Latin universitas magistrorum et scholarium, roughly meaning "community of teachers and scholars". Students can go to university to get an academic degree.</p>
+            <a href="" class="hiro-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+        <!-- course  -->
+         <section class="course">
+            <h1>Course We Offer</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>intermediate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nesciunt quasi enim consequuntur architecto voluptas quod dolores minima necessitatibus laborum.</p>
+                </div>
+                
+                <div class="course-col">
+                    <h3>degree</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nesciunt quasi enim consequuntur architecto voluptas quod dolores minima necessitatibus laborum.</p>
+                </div>
+                
+                <div class="course-col">
+                    <h3>post Graguation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nesciunt quasi enim consequuntur architecto voluptas quod dolores minima necessitatibus laborum.</p>
+                </div>
+            </div>
+            </div>
+            </div>
+         </section>
+
+            <!-- campus  -->
+
+         <section class="campus">
+            <h1>Our Globel Campus</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="./images/london.png" >
+                    <div class="layer">
+                        <h3> Ahemdabad</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="./images/newyork.png" >
+                    <div class="layer">
+                        <h3> Gandhinagar</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="./images/washington.png" >
+                    <div class="layer">
+                        <h3> Diu</h3>
+                    </div>
+                </div>
+                
+            </div>
+
+         </section>
+
+            <!-- facilities -->
+            <section class="facilities">
+                <h1>Our Facilities</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
+                <div class="row">
+                    <div class="facilities-col">
+                        <img src="./images/library.png" >
+                        <h3>World Class Library</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laboriosam mollitia laborum in quasi sequi.</p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="./images/basketball.png" >
+                        <h3>Largest Play Ground</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laboriosam mollitia laborum in quasi sequi.</p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="./images/cafeteria.png" >
+                        <h3>Teasty And Healthy Food</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laboriosam mollitia laborum in quasi sequi.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- testimonials -->
+
+            <section class="testimonials">
+                <h1>What Our Student says</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
+                <div class="row">
+                    <div class="testimonials-col">
+                        <img src="./images/user1.jpg" >
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis, sunt commodi eaque consequatur molestias iste ipsam cumque autem magni?</p>
+                            <h3>cristine</h3>
+                           
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                    <div class="testimonials-col">
+                        <img src="./images/user2.jpg" >
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis, sunt commodi eaque consequatur molestias iste ipsam cumque autem magni?</p>
+                            <h3>Harsh </h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+    <!-- javasript for toggel menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right ="0";
+            
+        }
+        function hidemenu(){
+            navLinks.style.right ="-200px";
+
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/7a7d133fae.js" crossorigin="anonymous"></script>
+</body>
+</html>
