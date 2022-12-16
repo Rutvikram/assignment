@@ -1,0 +1,95 @@
+   
+
+                                                                                                   Assignment
+                                                                                            Module:2 (css and css3)
+                                                                                       Submitted by:  Jay Ram
+
+
+
+
+      • What are the benefits of using CSS? 
+       CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, etc. CSS saves time − You can write CSS once and then reuse the same sheet in multiple HTML pages.
+
+
+      • What are the disadvantages of CSS? 
+        Disadvantages of CSS:
+        CSS, CSS 1 up to CSS3, result in creating of confusion among web browsers.
+        With CSS, what works with one browser might not always work with another. ...
+        There exists a scarcity of security.
+        After making the changes we need to confirm the compatibility if they appear.
+
+
+      • What is the difference between CSS2 and CSS3? 
+        Major Differences Between CSS, CSS2 & CSS3
+        Unlike CSS2, which was comprised of a single document, CSS3 has its specifications divided into many individual modules, which makes CSS3 a whole lot easier to handle. With CSS3, the designers can now use special fonts, like those available in Google Fonts and Typecast.
+
+      • Name a few CSS style components 
+        The components of css style are: 1)Selecter:HTML element name, id name, class name. 2)Property:It's like an attribute such as background color,font-size,position,text-align,color,border etc. 3)Values:which defines property or values allocate for properties.
+
+      • What do you understand by CSS opacity? 
+        The opacity CSS property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.13-Sept-2022
+        Applies to: all elements
+        Computed value: The same as the specified v.
+      
+      • How can the background color of an element be changed? 
+        How to Change a Div Background Color
+        Add a CSS class to the div you'd like to change. First, find the div in your HTML code and add a class to the opening tag. ...
+        Add the new class selector to your CSS code. Next, head over to your CSS code and add your new class selector. ...
+        Choose a new background color.
+      
+      • How can image repetition of the backup be controlled? 
+       To control the repetition of an image in the background, use the background-repeat property. You can use no-repeat value for the background-repeat property if you do not want to repeat an image, in this case, the image will display only once.
+
+      • What is the use of the background-position property? 
+        The background-position property sets the starting position of a background image. Tip: By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.
+        Default value: 0% 0%
+        JavaScript syntax: object.style.backgroundPos...
+      
+      • Which property controls the image scroll in the background? 
+        The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+
+      • Why should background and color be used as separate properties? 
+        There are two reasons behind this: It enhances the legibility of style sheets. The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase.
+
+      • How to center block elements using CSS? 
+        To horizontally center a block element (like <div>), use margin: auto; Setting the width of the element will prevent it from stretching out to the edges of its container.
+
+      • How to maintain the CSS specifications? 
+        Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+
+        With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
+
+      • What are the ways to integrate CSS as a web page? 
+        CSS can be added to HTML documents in 3 ways: Inline - by using the style attribute inside HTML elements. Internal - by using a <style> element in the <head> section. External - by using a <link> element to link to an external CSS file.
+
+      • What is embedded style sheets? 
+        Embedded Stylesheet: It allows you to define styles for a particular HTML document as a whole in one place. This is done by embedding the <style></style> tags containing the CSS properties in the head of your document.
+
+      • What are the external style sheets? 
+        An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage. Multiple webpages can use the same link to access the stylesheet. The link to an external style sheet is placed within the head section of the page.
+
+      • What are the advantages and disadvantages of using external style sheets? 
+        External style sheets have the following advantages over internal and inline styles:
+        one change to the style sheet will change all linked pages.
+        you can create classes of styles that can then be used on many different HTML elements.
+        consistent look and feel across multiple web pages.
+      
+      • What is the meaning of the CSS selector?
+        A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.
+
+      • What are the media types allowed by CSS? 
+        CSS 2.1 defines the following media groups:
+        continuous or paged.
+        visual, audio, speech, or tactile.
+        grid (for character grid devices), or bitmap.
+        interactive (for devices that allow user interaction), or static (for those that do not).
+        all (includes all media types)
+      • What is the rule set? 
+        A collection of rules or signatures that network traffic or system activity is compared against to determine an action to take—such as forwarding or rejecting a packet, creating an alert, or allowing a system event.
+
+      • Create Layouts 
+        Create a new layout
+        In the Project window, click the module in which you want to add a layout.
+        In the main menu, select File > New > XML > Layout XML File.
+        In the dialog that appears, provide the file name, the root layout tag, and the source set in which the layout belongs.
+        Click Finish to create the layout.
