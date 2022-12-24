@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1e8e3;
+}
+
+.row {
+    display: flex;
+}
+
+.col-md-2 {
+    margin-top: -15px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 75%;
+    height: 571px;
+    border-radius: 110px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 40px -16px;
+}
+
+/* header */
+
+.header {
+    position: absolute;
+    top: -30%;
+    left: 6%;
+    width: 1100px;
+    height: 353px;
+    border-radius: 80px;
+    background-color: #3a3a3a;
+    margin: 0 auto;
+    box-shadow: 0 0 20px;
+    z-index: 1;
+}
+
+
+.logo {
+    position: relative;
+    bottom: 0;
+    left: 379px;
+    top: 225px;
+    display: inline-block;
+
+}
+
+.logo img {
+    width: 85%;
+}
+
+.harsh {
+    width: 100%;
+    margin-top: 260px;
+    margin-left: 52px;
+    display: flex;
+}
+
+nav {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0 17px;
+
+
+
+}
+
+
+nav ul li a:hover {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color: #b68e76;
+}
+
+nav ul li a {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+    text-decoration: none;
+}
+
+.icons {
+    margin-left: 70px;
+}
+
+.quality {
+    margin-left: 15px;
+    color: #fff;
+}
+   /* section 1 */
+.col-md-1 img {
+    position: relative;
+    width: 100%;
+    margin-top: -30px;
+}
+
+.position {
+    position: absolute;
+    top: 75%;
+    right: 50px;
+}
+
+.Learn {
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 49px;
+    color: #000000;
+    font-weight: 100;
+    font-family: "Roboto Slab";
+}
+
+.Have {
+    font-size: 34px;
+    letter-spacing: 0px;
+    line-height: 41px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+}
+
+.position button {
+    margin-left: 40%;
+    margin-top: 10px;
+    height: 34px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #fefefc;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    width: 154px;
+    border-radius: 21px;
+    background-color: #b68e76;
+    cursor: pointer;
+    border: none;
+}
+
+.position button:hover {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color: #000000;
+}
+    /* section 2 */
+.healthy {
+    margin-top: 50px;
+}
+
+.col-md-2 {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.col-md-3 {
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+
+.col-md-3 img {
+
+    width: 100%;
+
+
+}
+
+.box {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.head-5 {
+    padding-top: 20px;
+    font-size: 39px;
+    letter-spacing: 0px;
+    line-height: 47px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+}
+
+.box h5 {
+    font-size: 32px;
+    letter-spacing: 0px;
+    line-height: 42px;
+    color: #000000;
+    font-weight: 250;
+    font-family: "Roboto Slab";
+}
+
+.box p {
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #30302f;
+    font-weight: 400;
+    font-family: "Barlow";
+
+}
+
+.box h4 {
+    margin-top: 20px;
+    font-size: 27px;
+    letter-spacing: 0px;
+    line-height: 33px;
+    color: #b68e76;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+}
+
+.box ul {
+    margin-top: 20px;
+}
+
+.box ul li {
+    width: 100%;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.box ul li a {
+
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+    text-decoration: none;
+}
+
+.box button {
+    margin-top: 20px;
+    width: 20%;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #fefefc;
+    border: none;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    border-radius: 21px;
+    background-color: #b68e76;
+    cursor: pointer;
+}
+
+.box button:hover {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color: #000000;
+}
+  /* section 3 */
+.col-lg-1 {
+    position: relative;
+}
+
+.col-lg-1 img {
+    width: 100%;
+}
+
+.posi-2 {
+    position: absolute;
+    top: 35%;
+    right: 9%;
+}
+
+.posi-2 h2 {
+    font-size: 39px;
+    letter-spacing: 0px;
+    line-height: 48px;
+    color: #000000;
+    font-weight: 500;
+    margin-left: -100px;
+}
+
+.posi-2 h5 {
+    font-size: 32px;
+    margin-left: -100px;
+    letter-spacing: 0px;
+    line-height: 42px;
+    color: #000000;
+    font-weight: 250;
+
+}
+
+form {
+    margin-top: 45px;
+}
+
+.form-i {
+    display: block;
+    width: 330px;
+    height: 45px;
+    border-radius: 23px;
+    background-color: #ffffff;
+    padding-left: 30px;
+    margin-top: 20px;
+    border: none;
+}
+
+.serch {
+    margin-top: 20px;
+    width: 330px;
+    height: 40px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #fefefc;
+    border: none;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    border-radius: 21px;
+    background-color: #b68e76;
+    cursor: pointer;
+
+}
+
+.serch:hover {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color: #000000;
+}
+
+.posi-2 p {
+    margin-top: 20px;
+    font-size: 11px;
+    letter-spacing: 0px;
+    line-height: 14px;
+    color: #30302f;
+    font-weight: 400;
+    font-family: "Barlow";
+}
+ /* section 4 */
+.Beverage {
+    margin-top: 50px;
+}
+
+.img-set {
+    height: 460px !important;
+    border-radius: 86px !important;
+    background-color: #3a3a3a;
+}
+
+.m-left {
+    margin-left: 60px;
+}
+
+.m-left img {
+    width: 50%;
+    margin-top: 40px;
+
+}
+
+.m-left h2 {
+    margin-top: 10px;
+    font-size: 34px;
+    letter-spacing: 0px;
+    line-height: 41px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.col-sm-2 {
+
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.col-sm-1 {
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+
+
+.col-sm-1 h4 {
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 64px;
+    color: #ffffff;
+    font-weight: 250;
+}
+
+.col-sm-1 p {
+    font-size: 10px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: 400;
+}
