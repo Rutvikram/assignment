@@ -102,7 +102,8 @@ nav ul li a {
     margin-left: 15px;
     color: #fff;
 }
-   /* section 1 */
+
+/* section 1 */
 .col-md-1 img {
     position: relative;
     width: 100%;
@@ -155,10 +156,9 @@ nav ul li a {
     transition: all 0.5s ease-in-out;
     color: #000000;
 }
-    /* section 2 */
-.healthy {
-    margin-top: 50px;
-}
+
+/* section 2 */
+
 
 .col-md-2 {
     flex: 0 0 60%;
@@ -264,7 +264,8 @@ nav ul li a {
     transition: all 0.5s ease-in-out;
     color: #000000;
 }
-  /* section 3 */
+
+/* section 3 */
 .col-lg-1 {
     position: relative;
 }
@@ -345,14 +346,13 @@ form {
     font-weight: 400;
     font-family: "Barlow";
 }
- /* section 4 */
-.Beverage {
-    margin-top: 50px;
-}
+
+/* section 4 */
+
 
 .img-set {
     height: 460px !important;
-    border-radius: 86px !important;
+    border-radius: 89px !important;
     background-color: #3a3a3a;
 }
 
@@ -377,28 +377,120 @@ form {
 
 .col-sm-2 {
 
-    flex: 0 0 20%;
-    max-width: 20%;
+    flex: 0 0 30%;
+    max-width: 30%;
 }
 
 .col-sm-1 {
-    flex: 0 0 80%;
-    max-width: 80%;
+    flex: 0 0 70%;
+    max-width: 70%;
 }
 
 
 .col-sm-1 h4 {
-    font-size: 21px;
-    letter-spacing: 0px;
-    line-height: 64px;
+    font-size: 20px;
+    line-height: 57px;
     color: #ffffff;
     font-weight: 250;
 }
 
 .col-sm-1 p {
     font-size: 10px;
-    letter-spacing: 0px;
     line-height: 10px;
     color: #ffffff;
     font-weight: 400;
+}
+
+.col-sm-2 h4 {
+    font-size: 20px;
+    line-height: 84px;
+    color: #ffffff;
+    font-weight: 250;
+
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.about-choco {
+    width: 43%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.about-choco h2 {
+    font-size: 76px;
+    letter-spacing: 0px;
+    line-height: 92px;
+    color: #000000;
+    font-weight: 250;
+}
+
+.about-choco h4 {
+    font-size: 39px;
+    letter-spacing: 0px;
+    line-height: 47px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.about-choco p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    letter-spacing: 0px;
+    line-height: 34px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.order-now {
+    margin: 10px;
+    display: block;
+    text-align: center;
+    width: 25%;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #fefefc;
+    border: none;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    border-radius: 21px;
+    background-color: #b68e76;
+    cursor: pointer;
+}
+
+.order-now:hover {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color: #000000;
+}
+
+.w-fix {
+    height: 583px !important;
+}
+
+.read-more {
+    width: 50% !important;
+    height: 45px !important;
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #fefefc;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.mini {
+    width: 100%;
+    height: 71px;
+    font-size: 11px !important;
+    letter-spacing: 0px ;
+    line-height: 14px !important; 
+    color: #30302f !important;
+    font-weight: 400 !important;
+    font-family: "Barlow" !important;
 }
