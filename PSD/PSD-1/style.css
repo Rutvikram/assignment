@@ -19,7 +19,6 @@ body {
 .container {
     margin: 0 auto;
     width: 75%;
-    height: 571px;
     border-radius: 110px;
     background-color: #ffffff;
     box-shadow: 2px 2px 40px -16px;
@@ -39,7 +38,7 @@ body {
 .header {
     position: absolute;
     top: -30%;
-    left: 6%;
+    left: 10%;
     width: 1100px;
     height: 353px;
     border-radius: 80px;
@@ -117,6 +116,7 @@ nav ul li a {
     position: relative;
     width: 100%;
     margin-top: -30px;
+    object-fit: cover;
 }
 
 .position {
@@ -182,6 +182,7 @@ nav ul li a {
 .col-md-3 img {
 
     width: 100%;
+    object-fit: contain;
 
 
 }
@@ -285,6 +286,7 @@ nav ul li a {
 
 .col-lg-1 img {
     width: 100%;
+
 }
 
 .posi-2 {
@@ -364,7 +366,7 @@ form {
 
 
 .img-set {
-    height: 460px !important;
+    height: 512px !important;
     border-radius: 89px !important;
     background-color: #3a3a3a;
 }
@@ -483,7 +485,12 @@ form {
 }
 
 .w-fix {
-    height: 583px !important;
+    height: 649px !important;
+}
+
+.w-fix2 {
+    height: 595px !important;
+
 }
 
 .read-more {
@@ -584,6 +591,7 @@ footer img {
 .star {
     position: absolute;
     width: 80%;
+    z-index: -1;
 }
 
 .logo-f {
@@ -595,19 +603,21 @@ footer img {
 }
 
 .f-text {
-    padding: 27% 0 0 35%;
+    padding: 25% 0 0 25%;
 
 }
 
 .f-text h3 {
     display: inline-block;
     text-align: center;
+    margin-left: 145px;
 
 }
 
 .f-btn {
     margin-top: 20px;
-    display: block;
+    margin-left: 145px;
+    display: inline-block;
     width: 188px;
     height: 34px;
     font-size: 19px;
@@ -619,12 +629,135 @@ footer img {
     background-color: #3a3a3a;
     border-radius: 21px;
     border: none;
-    
+
+
 }
 
-.f-btn:hover {
-    cursor: pointer;
-    color: #b68e76;
+button:hover {
     text-decoration: none;
     transition: all 0.5s ease-in-out;
+    color: #b68e76;
+    cursor: pointer;
+}
+
+.f-text p {
+    display: inline-block;
+    width: 68%;
+    margin-top: 20px;
+    font-size: 11px;
+    letter-spacing: 0px;
+    line-height: 15px;
+    color: #30302f;
+    font-weight: 400;
+    font-family: "Barlow";
+    text-align: center;
+}
+
+footer {
+    position: relative;
+}
+
+footer img {
+    position: absolute;
+}
+
+.footer {
+    position: absolute;
+    bottom: -171%;
+    left: 10%;
+    width: 1100px;
+    height: 500px;
+    border-radius: 80px 80px 0px 0px;
+    background-color: #3a3a3a;
+    margin: 0 auto;
+    box-shadow: 0 0 20px;
+    z-index: 1;
+}
+
+.footer-logo {
+    width: 400px;
+
+    margin: 30px auto;
+}
+
+.footer-logo img {
+    width: 400px;
+
+}
+
+
+.footer-logo p {
+    width: 100%;
+    margin-top: 85px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Barlow";
+}
+
+.col-md-4 {
+    display: flex;
+    flex: 0 0 50%;
+    width: 50%;
+    padding-left: 60px;
+}
+.col-md-5{
+    flex: 0 0 50%;
+    width: 50%;
+    padding-left: 60px;
+}
+
+.col-md-4 img {
+    width: 7%;
+    margin-top: 0;
+}
+
+.row-1 {
+    flex: 0 0 50%;
+    width: 50%;
+    margin-top: 25px;
+
+}
+
+.row-2 {
+    flex: 0 0 50%;
+    width: 50%;
+    margin-top: 25px;
+
+
+}
+
+
+.row-1 ul li {
+
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Barlow";
+    list-style: none;
+}
+
+.row-2 ul li {
+    list-style: none;
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Barlow";
+}
+
+.col-md-5 h2 {
+    display: block;
+    font-size: 28px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto Slab";
 }
