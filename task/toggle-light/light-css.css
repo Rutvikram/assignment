@@ -37,32 +37,38 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: #999;
     padding: 5px;
 
 }
 nav ul li a:hover{
-background: #00986f;
-color: powderblue;
-border-radius: 4px;
+background: green;
+color: rgb(255, 255, 255);
+border-radius: 2rem;
+transition: 0.6s;
 
 }
 button{
-    background: #efefef;
+    background: green;
     height: 30px;
     width: 60px;
     border-radius: 20px;
     border: 0;
     outline: 0;
     cursor: pointer;
+    transition: 0.5s;
 }
+
+
 button span{
     display: block;
-    background: #999;
+    background: #fff;
     height: 26px;
     width: 26px;
     border-radius: 50%;
-    margin-left: 2px;
+    margin-left: 31px;
+    transition: 0.3s;
+
 
 }
 .lamp-container{
@@ -81,11 +87,16 @@ button span{
 .light{
     position: absolute;
     top: 97%;
-    left: 41%;
+    left: 40%;
     transform: translateX(-50%);
-    width: 576px;
+    width: 610px;
     margin-left: -10px;
-    /* opacity: 0; */
+    opacity: 0;
+    
+}
+.opc{
+    opacity: 1;
+
 }
 .text-container{
     max-width: 600px;
@@ -100,19 +111,26 @@ button span{
 }
 .text-container a{
     text-decoration: none;
-    background: #00986f;
     padding: 14px 40px;
     display: inline-block;
-    color: #fff;
+    background: #fff;
+    color: rgb(0, 0, 0);
     margin-top: 30px;
     border-radius: 30px;
 }
 
+.text-container a:hover{
+    color: #ffff;
+    transition: 0.7s;
+    background: #00986f;
+
+}
+
 .active{
-    background: green;
+    background: #efefef;
 }
 .active span{
-    background: #fff;
-    margin-left: 31px;
+    background:  #999;
+    margin-left: 0px;
 }
 

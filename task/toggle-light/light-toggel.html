@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light</title>
+    <link rel="stylesheet" href="./light-css.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <img src="./images/menu.png" class="menu-img">
+            <img src="./images/logo.png" class="logo">
+            <ul>
+                <li><a href="">Latest</a></li>
+                <li><a href="">Modern</a></li>
+                <li><a href="">Contemporary</a></li>
+                <li><a href="">Affordeble</a></li>
+
+            </ul>
+            <button type="button"  id="btn" class="active"><span></span></button>
+        </nav>
+        <div class="lamp-container">
+            <img src="./images/lamp.png" class="lamp">
+            <img src="./images/light.png" id="light" class="light">
+        </div>
+        <div class="text-container">
+            <h2>Latest <br>in Lighting</h2>
+            <p>This is the first for our company. we're making a huge collection of morden lamps in all categories from
+                home use to office use.</p>
+            <a href="">Check All Collections</a>
+        </div>
+    </div>
+
+    <!-- <script>
+        let btn = document.getElementbyId("btn");
+
+        function togglebtn() {
+            // let element = document.getElementsById("btn")
+            btn.classlist.toggle("opc")
+        }
+    </script> -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script>
+        // document.getElementById("btn").addEventListener("click", function (params) {
+        //     document.getElementById("light").classList.add("opc") 
+        // })
+        // $("#btn").click(function () {
+        //     $("#light").addClass("opc") 
+        // })
+        // $("#btn").click(function () {
+        //     $("#light").removeClass("opc") 
+        // })
+        $("#btn").click(function () {
+            // alert("called")
+            // console.log($("#light").hasClass("opc"));
+            
+            $("#light").toggleClass("opc") 
+            $("#btn").toggleClass("active") 
+        })
+        
+    </script>
+</body>
+
+</html>
