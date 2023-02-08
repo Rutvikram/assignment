@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const promise = new Promise(function (resolve, reject) {
+            resolve('Have A Good Day ');
+        })
+
+        promise
+            .then(function (successMessage) {
+                //success handler function is invoked
+                console.log(successMessage);
+            }, function (errorMessage) {
+                console.log(errorMessage);
+            })
+
+        var promise2 = new Promise(function (resolve, reject) {
+            reject('Sorry Your Promise Rejected')
+        })
+
+        promise2
+            .then(function (successMessage) {
+                console.log(successMessage);
+            }, function (errorMessage) {
+                //error handler function is invoked
+                console.log(errorMessage);
+            })
+
+    </script>
+</body>
+
+</html>
