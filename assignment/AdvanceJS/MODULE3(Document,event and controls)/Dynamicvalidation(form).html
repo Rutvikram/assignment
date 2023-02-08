@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="post" id="form">
+        <h2 align="center">Fill The Details</h2>
+        <table bgcolor="aliceblue" align="center">
+
+            <tr>
+                <td>
+                    First Name:<br>
+                    <input type="text" placeholder="Name" name="firstname" id="firstname" required><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Middle Name:<br>
+                    <input type="text" placeholder="Fathername" name="middlename" required><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Last Name:<br>
+                    <input type="text" placeholder="Surname" name="lastname" required><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Gender:<br>
+                    <input type="radio" name="Gender">Male
+                    <input type="radio" name="Gender">Female
+                    <input type="radio" name="Gender">Other
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Birth Date:<br>
+                    <input type="date" name="birthday">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Hobby:<br>
+                    <input type="checkbox" name="hobby">Listing music
+                    <input type="checkbox" name="hobby">Playing games
+                    <input type="checkbox" name="hobby">Reading Books
+                    <input type="checkbox" name="hobby">Etc
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Email:<br>
+                    <input type="email" placeholder="XYZ@mail.com" required><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Password:
+                    <input type="password" placeholder="Password" required><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Mobile No. :
+                    <select>
+                        <option>89</option>
+                        <option>90</option>
+                        <option>91</option>
+                        <option>92</option>
+                        <option>93</option>
+                    </select>
+                    <input type="tel" placeholder="99321*****" onkeypress="return (event.which >=48 && event.which <=57 )" minlength="10" maxlength="10"
+                    name="email" id="tel" required><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" value="submit" onclick="checkvalidation() " id="save" name="save">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script>
+        function checkvalidation() {
+            event.preventDefault();
+            let FormRequiredInpField = document.getElementById("form").querySelectorAll("[required]")
+            for (let index = 0; index < FormRequiredInpField.length; index++) {
+                var y = document.createElement("span")
+                var g = document.createTextNode("Fill The Detalis");
+                y.appendChild(g);
+                if (FormRequiredInpField[index].value == "") {
+                    if (FormRequiredInpField[index].nextElementSibling.nodeName == "SPAN") 
+                    {
+                        FormRequiredInpField[index].nextElementSibling.remove()
+                    }
+                    FormRequiredInpField[index].after(y);
+                } else {
+                    if (FormRequiredInpField[index].nextElementSibling.nodeName == 'SPAN') {
+                        FormRequiredInpField[index].nextElementSibling.remove()
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

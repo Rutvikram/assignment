@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: pink;
+            font-size: 20px;
+            color: white;
+            padding: 10px 30px;
+            cursor: pointer;
+        }
+
+        #box {
+            width: 500px;
+            overflow: hidden;
+            background: pink;
+            box-shadow: 0 0 10px black;
+            border-radius: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+            padding: 10px;
+            text-align: center;
+            display: none;
+        }
+
+        #box span {
+            color: hotpink;
+            font-size: 40px;
+            display: block;
+            margin: 20px 0;
+        }
+
+        #box h1 {
+            color: brown
+        }
+
+        .close {
+            font-size: 18px;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            background: rgb(111, 111, 223);
+            display: inline-block;
+            border-radius: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <a class="btn" onclick="pop()">Show Box</a>
+    <div id="box">
+        <i class="fas fa-check-circle"></i>
+        <h1>Good Job</h1>
+        <a class="close" onclick="pop()">Close Box</a>
+    </div>
+    <script>
+        var modal = null
+        function pop() {
+            if (modal === null) {
+                document.getElementById("box").style.display = "block";
+                modal = true
+            } else {
+                document.getElementById("box").style.display = "none";
+                modal = null
+            }
+        }
+    </script>
+</body>
+
+</html>

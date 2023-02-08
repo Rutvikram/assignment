@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 1000px;
+        }
+
+        header {
+            position: relative;
+            z-index: 2;
+            background-color: #333;
+        }
+
+        .header-inner {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: #fff;
+            cursor: default;
+        }
+
+        .logo span {
+            color: #FFFF00;
+        }
+
+        .bars {
+            font-size: 26px;
+            color: #fff;
+            display: none;
+            cursor: pointer;
+            transition: color 0.6s ease;
+        }
+
+        .bars:hover {
+            color: #FFFF00;
+        }
+
+        .nav-link {
+            margin-left: 30px;
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.6s ease;
+        }
+
+        .nav-link:hover {
+            color: #FFFF00;
+        }
+
+        .mobile-menu {
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background-color: #222;
+            opacity: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            pointer-events: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .bars {
+                display: block;
+            }
+
+            .nav-menu {
+                display: none;
+            }
+
+            .active {
+                left: 0;
+                opacity: 1;
+                pointer-events: auto;
+                transition: left 0.6s ease-in-out;
+            }
+
+            .nav-link {
+                font-size: 24px;
+                margin: 30px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-inner">
+            <h2 class="logo">LO<span>GO</span></h2>
+            <i id="bars" class="fas fa-bars bars"></i>
+            <nav class="nav-menu">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Services</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <nav id="mobileMenu" class="mobile-menu">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Services</a>
+        <a href="#" class="nav-link">Contact</a>
+    </nav>
+</body>
+<script>
+    const bars = document.getElementById('bars');
+    const mobileMenu = document.getElementById('mobileMenu');
+    bars.addEventListener('click', function () {
+        mobileMenu.classList.toggle('active')
+    })
+</script>
+
+</html>
