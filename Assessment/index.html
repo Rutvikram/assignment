@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="blenk"></section>
+    <section class="gallery">
+        <div class="product">
+            <div class="product-small-image">
+                <img class="hvr-shrink" src="./img/1.jfif" alt="" onclick="toggleImage(this)" />
+              
+                <img class="hvr-shrink" src="./img/2.jfif" alt="" onclick="toggleImage(this)" />
+              
+                <img class="hvr-shrink" src="./img/3.jfif" alt="" onclick="toggleImage(this)" />
+              
+                <img class="hvr-shrink" src="./img/4.jfif" alt="" onclick="toggleImage(this)" />
+              
+                <img class="hvr-shrink" src="./img/5.jfif" alt="" onclick="toggleImage(this)" />
+              
+                <img class="hvr-shrink" src="./img/6.jfif" alt="" onclick="toggleImage(this)" />
+              
+                <img class="hvr-shrink" src="./img/7.jfif" alt="" onclick="toggleImage(this)" />
+              
+            </div>
+
+            <div class="product-big-image">
+                <img src="./img/1.jfif" alt="" id="big-image" />
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        function toggleImage(smallImage) {
+    const bigImage = document.getElementById('big-image');
+    const smallImages = document.querySelectorAll('.product-small-image img');
+    bigImage.classList.add('fade-out');
+    setTimeout(() => {
+        bigImage.src = smallImage.src;
+        bigImage.classList.remove('fade-out');
+    }, 500);
+    smallImages.forEach((image) => {
+        if (image !== smallImage) {
+            image.classList.remove('active');
+        }
+    });
+    smallImage.classList.add('active');
+}
+    </script>
+</body>
+</html>
