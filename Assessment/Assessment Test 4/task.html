@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    
+    <h1>Are you a Citizen : <span id="citizen">No</span></h1>
+    <h1>Are you over 21 :<span id="age">No</span></h1>
+    
+    Are you a Citizen :<input type="checkbox" onclick="isCitizen()"> <br>
+    Are you over 21 :<input type="checkbox" onclick="isAgeValid()">
+<script>
+ isCitizen = () => {
+  let x = document.getElementById("citizen");
+  if (x.innerHTML === "No") {
+    x.innerHTML = "Yes";
+  } else {
+    x.innerHTML = "No";
+  }
+}
+isAgeValid = () => {
+  let x = document.getElementById("age");
+  if (x.innerHTML === "No") {
+    x.innerHTML = "Yes";
+  } else {
+    x.innerHTML = "No";
+  }
+}
+</script>
+
+</body>
+</html>
