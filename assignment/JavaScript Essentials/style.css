@@ -1,0 +1,13 @@
+td{
+    text-align: center;
+}
+button{
+    background-color: rgb(134, 24, 24);
+    color: #fff;
+    border: 1px solid #494949;
+}
+
+button:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
