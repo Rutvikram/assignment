@@ -56,7 +56,19 @@ p2total = p2 * q2.value
 
 console.log(q1);
 
+const p1BtnClick = ()=>{
+    q1.value = 1
+    p1pritotal.innerHTML = p1
+    // total = p1 +p2
 
+}
+
+const p2BtnClick = ()=>{
+    q2.value = 1
+    p2pritotal.innerHTML = p2
+    // total = p1 +p2
+
+}
 
 
 
